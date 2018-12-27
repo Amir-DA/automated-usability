@@ -1,0 +1,728 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "C:\Program Files (x86)\HPE\Unified Functional Testing\samples\Flights Application\FlightsGUI.exe",1</Name>
+    <StartTime>2018-08-23 23:51:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>42230aba2c594f8b825be6b3acc66803</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Start Application [Common MyFlight Behaviour Test]</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:59</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>099957766d6646b8a9c2d30bece57b5c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>agentName.Set</Name>
+    <Description>"john"</Description>
+    <StartTime>2018-08-23 23:51:01</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Login.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfEdit</Type>
+            <Name><![CDATA[agentName]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["john"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[agentName]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>979bea14794b4ecc972cb2a37e73ac4d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>password.SetSecure</Name>
+    <Description>"5b51f6f18e41810734bb"</Description>
+    <StartTime>2018-08-23 23:51:01</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Login.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfEdit</Type>
+            <Name><![CDATA[password]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetSecure</Operation>
+        <OperationData><![CDATA["5b51f6f18e41810734bb"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[password]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>979bea14794b4ecc972cb2a37e73ac4d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>OK.Click</Name>
+    <Description />
+    <StartTime>2018-08-23 23:51:02</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Login.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[OK]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[OK]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[okButton]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>26674de5c86542a4a2befaa7ee4be002</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HPE MyFlight Sample Application</Name>
+    <Description>WpfWindow</Description>
+    <StartTime>2018-08-23 23:51:01</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Login.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>341fb002fb894bf2b8b6880b613fc5e7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login [Common MyFlight Behaviour Test]</Name>
+    <Description />
+    <StartTime>2018-08-23 23:51:00</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>099957766d6646b8a9c2d30bece57b5c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>fromCity.Select</Name>
+    <Description>"Paris"</Description>
+    <StartTime>2018-08-23 23:51:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Search Flights.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfComboBox</Type>
+            <Name><![CDATA[fromCity]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Paris"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[fromCity]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>49d6e2a70ff4453b99fcf9fdde1b9f05</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>toCity.Select</Name>
+    <Description>"Zurich"</Description>
+    <StartTime>2018-08-23 23:51:03</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Search Flights.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfComboBox</Type>
+            <Name><![CDATA[toCity]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Zurich"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[toCity]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>49d6e2a70ff4453b99fcf9fdde1b9f05</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>datePicker.SetDate</Name>
+    <Description>#20.08.2018 23:51:03#</Description>
+    <StartTime>2018-08-23 23:51:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Search Flights.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfCalendar</Type>
+            <Name><![CDATA[datePicker]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetDate</Operation>
+        <OperationData><![CDATA[#20.08.2018 23:51:03#]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[datePicker]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>ef56987312f3463fbfaa9e896149dcdb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>FIND FLIGHTS.Click</Name>
+    <Description />
+    <StartTime>2018-08-23 23:51:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Search Flights.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[FIND FLIGHTS]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[FIND FLIGHTS]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[FIND FLIGHTS]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>26674de5c86542a4a2befaa7ee4be002</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HPE MyFlight Sample Application</Name>
+    <Description>WpfWindow</Description>
+    <StartTime>2018-08-23 23:51:03</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Search Flights.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>341fb002fb894bf2b8b6880b613fc5e7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Error message should appear"</Name>
+    <Description> </Description>
+    <StartTime>2018-08-23 23:51:04</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>Dialog</Type>
+            <Name><![CDATA[Error]]></Name>
+          </Object>
+          <Object>
+            <Type>WinButton</Type>
+            <Name><![CDATA[OK]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[OK]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[enabled]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[True]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[True]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+      </Checkpoint>
+      <IconKey>500e37d2c9084617b371d05eb8eca8c3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>OK</Name>
+    <Description>WinButton</Description>
+    <StartTime>2018-08-23 23:51:04</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>Dialog</Type>
+            <Name><![CDATA[Error]]></Name>
+          </Object>
+          <Object>
+            <Type>WinButton</Type>
+            <Name><![CDATA[OK]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WinButton]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[OK]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>500e37d2c9084617b371d05eb8eca8c3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>OK.Click</Name>
+    <Description />
+    <StartTime>2018-08-23 23:51:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>Dialog</Type>
+            <Name><![CDATA[Error]]></Name>
+          </Object>
+          <Object>
+            <Type>WinButton</Type>
+            <Name><![CDATA[OK]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[OK]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>500e37d2c9084617b371d05eb8eca8c3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Error</Name>
+    <Description>Dialog</Description>
+    <StartTime>2018-08-23 23:51:04</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>Dialog</Type>
+            <Name><![CDATA[Error]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Dialog]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Error]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[#32770]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[True]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>488e2e40108c447690dd44dbab9084e3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>MyFlight Sample Application</Name>
+    <Description>WpfWindow</Description>
+    <StartTime>2018-08-23 23:51:04</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[MyFlight Sample Application]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>341fb002fb894bf2b8b6880b613fc5e7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>datePicker.GetROProperty</Name>
+    <Description>"focused"</Description>
+    <StartTime>2018-08-23 23:51:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Search Flights.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfCalendar</Type>
+            <Name><![CDATA[datePicker]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetROProperty</Operation>
+        <OperationData><![CDATA["focused"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[datePicker]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>ef56987312f3463fbfaa9e896149dcdb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HPE MyFlight Sample Application</Name>
+    <Description>WpfWindow</Description>
+    <StartTime>2018-08-23 23:51:04</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Search Flights.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>341fb002fb894bf2b8b6880b613fc5e7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Usability Issue Detected: Cursor Focus is NOT Placed on Erroneous Field</Name>
+    <Description>After the error message was dismissed, the wrong field did not have cursor focus</Description>
+    <StartTime>2018-08-23 23:51:04</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>ee2a2724c59f4a48b5dc679eef52a47e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Search a Flight with Past Date</Name>
+    <Description />
+    <StartTime>2018-08-23 23:51:02</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>099957766d6646b8a9c2d30bece57b5c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<Data>
+    <Name>Close Application [Common MyFlight Behaviour Test]</Name>
+    <Description />
+    <StartTime>2018-08-23 23:51:04</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>099957766d6646b8a9c2d30bece57b5c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:59</StartTime>
+    <Duration>7</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>4610c415c0144a8ea86380ab983778f2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>4-3-13 Cursor Placement After Error (this Test should Fail)</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.03</ToolVersion>
+    <Description />
+    <StartTime>2018-08-23 23:50:57</StartTime>
+    <Duration>9</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>1887655ffa084f8ca337e008c88205a2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+02:00:00</Timezone>
+      <Locale>Deutsch (Österreich)</Locale>
+      <User>Emir</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>4024</TotalMemory>
+      <HostName>DESKTOP-I4VQ9RT</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2018-08-23 23:50:57</RunStartTime>
+    <Timezone>+02:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.03</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

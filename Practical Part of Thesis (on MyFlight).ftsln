@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0-UFT_14
+Project("") = "Common MyFlight Behaviour Test", "MyFlight Application\Common MyFlight Behaviour Test\Test.tsp", "3993BCB7-EABC-4FD8-A26D-E6AE3E013C27"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\Common MyFlight Behaviour Test\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "6-0-18 User Confirmation of Destructive Actions", "MyFlight Application\6-0-18 User Confirmation of Destructive Actions\Test.tsp", "52098102-4BA3-4A7B-9DF9-250EB6CB83E6"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\6-0-18 User Confirmation of Destructive Actions\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "1-3-10 Upper and Lower Case Equivalence in Search", "MyFlight Application\1-3-10 Upper and Lower Case Equivalence in Search\Test.tsp", "881A4E03-4750-4B70-8656-B9B3B8CDC34E"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\1-3-10 Upper and Lower Case Equivalence in Search\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "3-0-20 Lockout Control (this Test should FAIL)", "MyFlight Application\3-0-20 Lockout Control (this Test should FAIL)\Test.tsp", "F1104B23-3DB2-4503-9EED-481C01C7E4C2"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\3-0-20 Lockout Control (this Test should FAIL)\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "1-0-4 Fast Response", "MyFlight Application\1-0-4 Fast Response\Test.tsp", "8E106DC1-DA3A-4C73-99E0-90BD20A36371"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\1-0-4 Fast Response\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "1-4-15 Tabbing to Data Fields", "MyFlight Application\1-4-15 Tabbing to Data Fields\Test.tsp", "1CFDAACF-81C7-4BF0-8E90-92BD74DBC950"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\1-4-15 Tabbing to Data Fields\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "1-7-3 Non-disruptive Error Messages", "MyFlight Application\1-7-3 Non-disruptive Error Messages\Test.tsp", "94E2F510-7311-4F10-B113-9B3FD4C111D2"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\1-7-3 Non-disruptive Error Messages\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Project("") = "4-3-13 Cursor Placement After Error (this Test should Fail)", "MyFlight Application\4-3-13 Cursor Placement After Error (this Test should Fail)\Test.tsp", "BEEF559C-A2BD-4DD0-AE08-81D36B7DE919"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\4-3-13 Cursor Placement After Error (this Test should Fail)\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		3993BCB7-EABC-4FD8-A26D-E6AE3E013C27.Debug|Any CPU.Build.0 = Debug|Any CPU
+		3993BCB7-EABC-4FD8-A26D-E6AE3E013C27.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		3993BCB7-EABC-4FD8-A26D-E6AE3E013C27.Release|Any CPU.Build.0 = Release|Any CPU
+		3993BCB7-EABC-4FD8-A26D-E6AE3E013C27.Release|Any CPU.ActiveCfg = Release|Any CPU
+		52098102-4BA3-4A7B-9DF9-250EB6CB83E6.Debug|Any CPU.Build.0 = Debug|Any CPU
+		52098102-4BA3-4A7B-9DF9-250EB6CB83E6.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		52098102-4BA3-4A7B-9DF9-250EB6CB83E6.Release|Any CPU.Build.0 = Release|Any CPU
+		52098102-4BA3-4A7B-9DF9-250EB6CB83E6.Release|Any CPU.ActiveCfg = Release|Any CPU
+		881A4E03-4750-4B70-8656-B9B3B8CDC34E.Debug|Any CPU.Build.0 = Debug|Any CPU
+		881A4E03-4750-4B70-8656-B9B3B8CDC34E.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		881A4E03-4750-4B70-8656-B9B3B8CDC34E.Release|Any CPU.Build.0 = Release|Any CPU
+		881A4E03-4750-4B70-8656-B9B3B8CDC34E.Release|Any CPU.ActiveCfg = Release|Any CPU
+		F1104B23-3DB2-4503-9EED-481C01C7E4C2.Debug|Any CPU.Build.0 = Debug|Any CPU
+		F1104B23-3DB2-4503-9EED-481C01C7E4C2.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		F1104B23-3DB2-4503-9EED-481C01C7E4C2.Release|Any CPU.Build.0 = Release|Any CPU
+		F1104B23-3DB2-4503-9EED-481C01C7E4C2.Release|Any CPU.ActiveCfg = Release|Any CPU
+		8E106DC1-DA3A-4C73-99E0-90BD20A36371.Debug|Any CPU.Build.0 = Debug|Any CPU
+		8E106DC1-DA3A-4C73-99E0-90BD20A36371.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		8E106DC1-DA3A-4C73-99E0-90BD20A36371.Release|Any CPU.Build.0 = Release|Any CPU
+		8E106DC1-DA3A-4C73-99E0-90BD20A36371.Release|Any CPU.ActiveCfg = Release|Any CPU
+		1CFDAACF-81C7-4BF0-8E90-92BD74DBC950.Debug|Any CPU.Build.0 = Debug|Any CPU
+		1CFDAACF-81C7-4BF0-8E90-92BD74DBC950.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		1CFDAACF-81C7-4BF0-8E90-92BD74DBC950.Release|Any CPU.Build.0 = Release|Any CPU
+		1CFDAACF-81C7-4BF0-8E90-92BD74DBC950.Release|Any CPU.ActiveCfg = Release|Any CPU
+		94E2F510-7311-4F10-B113-9B3FD4C111D2.Debug|Any CPU.Build.0 = Debug|Any CPU
+		94E2F510-7311-4F10-B113-9B3FD4C111D2.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		94E2F510-7311-4F10-B113-9B3FD4C111D2.Release|Any CPU.Build.0 = Release|Any CPU
+		94E2F510-7311-4F10-B113-9B3FD4C111D2.Release|Any CPU.ActiveCfg = Release|Any CPU
+		BEEF559C-A2BD-4DD0-AE08-81D36B7DE919.Debug|Any CPU.Build.0 = Debug|Any CPU
+		BEEF559C-A2BD-4DD0-AE08-81D36B7DE919.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		BEEF559C-A2BD-4DD0-AE08-81D36B7DE919.Release|Any CPU.Build.0 = Release|Any CPU
+		BEEF559C-A2BD-4DD0-AE08-81D36B7DE919.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

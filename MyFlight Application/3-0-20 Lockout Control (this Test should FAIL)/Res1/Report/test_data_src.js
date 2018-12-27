@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\Emir\\Desktop\\Banaouas-Amir-Practical-Experiment-UFT\\MyFlight Application\\3-0-20 Lockout Control (this Test should FAIL)\\Res1',namePairs:[]}]};

@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0-UFT_14
+Project("") = "Common Eclipse Behaviour Test", "Eclipse IDE Application\Common Eclipse Behaviour Test\Test.tsp", "E03993F6-6497-472C-A149-D77751748A0C"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Common Eclipse Behaviour Test\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "6-0-5 Protection from Data Loss at Interrupts", "Eclipse IDE Application\6-0-5 Protection from Data Loss at Interrupts\Test.tsp", "A9DC2126-3852-4108-AE5F-8764FAD5D098"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\6-0-5 Protection from Data Loss at Interrupts\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "3-1-3-7 Menu Selection through Keys", "Eclipse IDE Application\3-1-3-7 Menu Selection through Keys\Test.tsp", "A10B41F9-DBFF-453F-AB1D-0143CA326C2B"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\3-1-3-7 Menu Selection through Keys\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "3-3-3 Provide CANCEL Option", "Eclipse IDE Application\3-3-3 Provide CANCEL Option\Test.tsp", "28293C38-3193-4DAF-B812-3C508DEC193B"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\3-3-3 Provide CANCEL Option\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "2-7-5-3 User Specified Windows", "Eclipse IDE Application\2-7-5-3 User Specified Windows\Test.tsp", "0B72065E-D0B1-4F59-957D-017A1E65FB69"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\2-7-5-3 User Specified Windows\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "1-0-1 Data Entered Only Once", "Eclipse IDE Application\1-0-1 Data Entered Only Once\Test.tsp", "489A5762-5D0F-40A2-ADB2-A592FFB9D8DA"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\1-0-1 Data Entered Only Once\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "3-5-10 Provide UNDO Option", "Eclipse IDE Application\3-5-10 Provide UNDO Option\Test.tsp", "B3835096-A2DC-46D9-842B-62858F97CB6E"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\3-5-10 Provide UNDO Option\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "3-0-1 Flexible Sequence Control", "Eclipse IDE Application\3-0-1 Flexible Sequence Control\Test.tsp", "D5032110-87E2-4F05-A128-C7B35E21295C"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\3-0-1 Flexible Sequence Control\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+	EndProjectSection
+EndProject
+Project("") = "3-2-10 Only Available Options Offered (this Test should Fail)", "Eclipse IDE Application\3-2-10 Only Available Options Offered (this Test should Fail)\Test.tsp", "9D5C393A-74EA-42F8-9EF3-11FF16520B00"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\3-2-10 Only Available Options Offered (this Test should Fail)\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		E03993F6-6497-472C-A149-D77751748A0C.Debug|Any CPU.Build.0 = Debug|Any CPU
+		E03993F6-6497-472C-A149-D77751748A0C.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		E03993F6-6497-472C-A149-D77751748A0C.Release|Any CPU.Build.0 = Release|Any CPU
+		E03993F6-6497-472C-A149-D77751748A0C.Release|Any CPU.ActiveCfg = Release|Any CPU
+		A9DC2126-3852-4108-AE5F-8764FAD5D098.Debug|Any CPU.Build.0 = Debug|Any CPU
+		A9DC2126-3852-4108-AE5F-8764FAD5D098.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		A9DC2126-3852-4108-AE5F-8764FAD5D098.Release|Any CPU.Build.0 = Release|Any CPU
+		A9DC2126-3852-4108-AE5F-8764FAD5D098.Release|Any CPU.ActiveCfg = Release|Any CPU
+		A10B41F9-DBFF-453F-AB1D-0143CA326C2B.Debug|Any CPU.Build.0 = Debug|Any CPU
+		A10B41F9-DBFF-453F-AB1D-0143CA326C2B.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		A10B41F9-DBFF-453F-AB1D-0143CA326C2B.Release|Any CPU.Build.0 = Release|Any CPU
+		A10B41F9-DBFF-453F-AB1D-0143CA326C2B.Release|Any CPU.ActiveCfg = Release|Any CPU
+		28293C38-3193-4DAF-B812-3C508DEC193B.Debug|Any CPU.Build.0 = Debug|Any CPU
+		28293C38-3193-4DAF-B812-3C508DEC193B.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		28293C38-3193-4DAF-B812-3C508DEC193B.Release|Any CPU.Build.0 = Release|Any CPU
+		28293C38-3193-4DAF-B812-3C508DEC193B.Release|Any CPU.ActiveCfg = Release|Any CPU
+		0B72065E-D0B1-4F59-957D-017A1E65FB69.Debug|Any CPU.Build.0 = Debug|Any CPU
+		0B72065E-D0B1-4F59-957D-017A1E65FB69.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		0B72065E-D0B1-4F59-957D-017A1E65FB69.Release|Any CPU.Build.0 = Release|Any CPU
+		0B72065E-D0B1-4F59-957D-017A1E65FB69.Release|Any CPU.ActiveCfg = Release|Any CPU
+		489A5762-5D0F-40A2-ADB2-A592FFB9D8DA.Debug|Any CPU.Build.0 = Debug|Any CPU
+		489A5762-5D0F-40A2-ADB2-A592FFB9D8DA.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		489A5762-5D0F-40A2-ADB2-A592FFB9D8DA.Release|Any CPU.Build.0 = Release|Any CPU
+		489A5762-5D0F-40A2-ADB2-A592FFB9D8DA.Release|Any CPU.ActiveCfg = Release|Any CPU
+		B3835096-A2DC-46D9-842B-62858F97CB6E.Debug|Any CPU.Build.0 = Debug|Any CPU
+		B3835096-A2DC-46D9-842B-62858F97CB6E.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		B3835096-A2DC-46D9-842B-62858F97CB6E.Release|Any CPU.Build.0 = Release|Any CPU
+		B3835096-A2DC-46D9-842B-62858F97CB6E.Release|Any CPU.ActiveCfg = Release|Any CPU
+		D5032110-87E2-4F05-A128-C7B35E21295C.Debug|Any CPU.Build.0 = Debug|Any CPU
+		D5032110-87E2-4F05-A128-C7B35E21295C.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		D5032110-87E2-4F05-A128-C7B35E21295C.Release|Any CPU.Build.0 = Release|Any CPU
+		D5032110-87E2-4F05-A128-C7B35E21295C.Release|Any CPU.ActiveCfg = Release|Any CPU
+		9D5C393A-74EA-42F8-9EF3-11FF16520B00.Debug|Any CPU.Build.0 = Debug|Any CPU
+		9D5C393A-74EA-42F8-9EF3-11FF16520B00.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		9D5C393A-74EA-42F8-9EF3-11FF16520B00.Release|Any CPU.Build.0 = Release|Any CPU
+		9D5C393A-74EA-42F8-9EF3-11FF16520B00.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

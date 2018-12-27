@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\Emir\\Desktop\\Banaouas-Amir-Practical-Experiment-UFT\\MyFlight Application\\1-7-3 Non-disruptive Error Messages\\Res1',namePairs:[]}]};

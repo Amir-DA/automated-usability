@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\Emir\\Desktop\\Banaouas-Amir-Practical-Experiment-UFT\\Eclipse IDE Application\\3-1-3-7 Menu Selection through Keys\\Res1',namePairs:[]}]};

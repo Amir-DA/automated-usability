@@ -1,0 +1,1220 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "C:\Program Files (x86)\HPE\Unified Functional Testing\samples\Flights Application\FlightsGUI.exe",1</Name>
+    <StartTime>2018-08-23 23:50:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>6715794a753344b59d57af187345948b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Start Application [Common MyFlight Behaviour Test]</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:29</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>9d48e1ae5a49457d81f6356da14c3377</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>agentName.Set</Name>
+    <Description>"john"</Description>
+    <StartTime>2018-08-23 23:50:30</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Login.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfEdit</Type>
+            <Name><![CDATA[agentName]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["john"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[agentName]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>fbed066d6000484f91dcf961f5543403</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>password.SetSecure</Name>
+    <Description>"5b51f6f18e41810734bb"</Description>
+    <StartTime>2018-08-23 23:50:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Login.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfEdit</Type>
+            <Name><![CDATA[password]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetSecure</Operation>
+        <OperationData><![CDATA["5b51f6f18e41810734bb"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[password]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>fbed066d6000484f91dcf961f5543403</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>OK.Click</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:32</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Login.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[OK]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[OK]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[okButton]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>15276d1711fd432685864b9ff573746c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HPE MyFlight Sample Application</Name>
+    <Description>WpfWindow</Description>
+    <StartTime>2018-08-23 23:50:30</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Login.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>806216b39d7449a0b4e11b5cfa49e157</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Login [Common MyFlight Behaviour Test]</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:30</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>9d48e1ae5a49457d81f6356da14c3377</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>fromCity.Select</Name>
+    <Description>"San Francisco"</Description>
+    <StartTime>2018-08-23 23:50:33</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Search Flights.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfComboBox</Type>
+            <Name><![CDATA[fromCity]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["San Francisco"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[fromCity]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e7ef22a71a544d1a9ce195040cabf3b0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>toCity.Select</Name>
+    <Description>"Sydney"</Description>
+    <StartTime>2018-08-23 23:50:33</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Search Flights.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfComboBox</Type>
+            <Name><![CDATA[toCity]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Sydney"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[toCity]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e7ef22a71a544d1a9ce195040cabf3b0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>datePicker.SetDate</Name>
+    <Description>#24.08.2018 23:50:33#</Description>
+    <StartTime>2018-08-23 23:50:33</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Search Flights.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfCalendar</Type>
+            <Name><![CDATA[datePicker]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetDate</Operation>
+        <OperationData><![CDATA[#24.08.2018 23:50:33#]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[datePicker]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>0d276f8871084e49a44224614dc3f48d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Class.Select</Name>
+    <Description>"First"</Description>
+    <StartTime>2018-08-23 23:50:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Search Flights.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfComboBox</Type>
+            <Name><![CDATA[Class]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["First"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[combo box]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[Class]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e7ef22a71a544d1a9ce195040cabf3b0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>numOfTickets.Select</Name>
+    <Description>"2"</Description>
+    <StartTime>2018-08-23 23:50:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Search Flights.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfComboBox</Type>
+            <Name><![CDATA[numOfTickets]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["2"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[numOfTickets]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e7ef22a71a544d1a9ce195040cabf3b0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>FIND FLIGHTS.Click</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Search Flights.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[FIND FLIGHTS]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[FIND FLIGHTS]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[FIND FLIGHTS]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>15276d1711fd432685864b9ff573746c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HPE MyFlight Sample Application</Name>
+    <Description>WpfWindow</Description>
+    <StartTime>2018-08-23 23:50:33</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Search Flights.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>806216b39d7449a0b4e11b5cfa49e157</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Search for Flights [Common MyFlight Behaviour Test]</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:32</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>9d48e1ae5a49457d81f6356da14c3377</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>flightsDataGrid.SelectCell</Name>
+    <Description>"0", "0"</Description>
+    <StartTime>2018-08-23 23:50:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Select a Flight.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfTable</Type>
+            <Name><![CDATA[flightsDataGrid]]></Name>
+          </Object>
+        </Path>
+        <Operation>SelectCell</Operation>
+        <OperationData><![CDATA["0", "0"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[flightsDataGrid]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a2da68a56c02429eaf97e8d247110f4c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SELECT FLIGHT.Click</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Select a Flight.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[SELECT FLIGHT]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[SELECT FLIGHT]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[selectFlightBtn]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>15276d1711fd432685864b9ff573746c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HPE MyFlight Sample Application</Name>
+    <Description>WpfWindow</Description>
+    <StartTime>2018-08-23 23:50:35</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Select a Flight.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>806216b39d7449a0b4e11b5cfa49e157</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Select a Flight [Common MyFlight Behaviour Test]</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:35</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>9d48e1ae5a49457d81f6356da14c3377</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"ORDER Button is disabled"</Name>
+    <Description> </Description>
+    <StartTime>2018-08-23 23:50:36</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[ORDER]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[ORDER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[orderBtn]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[enabled]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[False]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[False]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+      </Checkpoint>
+      <IconKey>15276d1711fd432685864b9ff573746c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>ORDER</Name>
+    <Description>WpfButton</Description>
+    <StartTime>2018-08-23 23:50:36</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[ORDER]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfButton]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[ORDER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[orderBtn]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>15276d1711fd432685864b9ff573746c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>passengerName.Set</Name>
+    <Description>"Gui Tester"</Description>
+    <StartTime>2018-08-23 23:50:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfEdit</Type>
+            <Name><![CDATA[passengerName]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Gui Tester"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[passengerName]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>fbed066d6000484f91dcf961f5543403</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"ORDER Button is enabled"</Name>
+    <Description> </Description>
+    <StartTime>2018-08-23 23:50:36</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[ORDER]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[ORDER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[orderBtn]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[enabled]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[True]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[True]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+      </Checkpoint>
+      <IconKey>15276d1711fd432685864b9ff573746c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>ORDER</Name>
+    <Description>WpfButton</Description>
+    <StartTime>2018-08-23 23:50:36</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[ORDER]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfButton]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[ORDER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[orderBtn]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>15276d1711fd432685864b9ff573746c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ORDER.Click</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[ORDER]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[ORDER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[orderBtn]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>15276d1711fd432685864b9ff573746c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ORDER.GetROProperty</Name>
+    <Description>"enabled"</Description>
+    <StartTime>2018-08-23 23:50:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[ORDER]]></Name>
+          </Object>
+        </Path>
+        <Operation>GetROProperty</Operation>
+        <OperationData><![CDATA["enabled"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[ORDER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[orderBtn]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>15276d1711fd432685864b9ff573746c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HPE MyFlight Sample Application</Name>
+    <Description>WpfWindow</Description>
+    <StartTime>2018-08-23 23:50:36</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>806216b39d7449a0b4e11b5cfa49e157</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Usability Issue Detected: Order Button is NOT Locked</Name>
+    <Description>Button is still enabled after clicking it once, and the processing of the first submit is still happening</Description>
+    <StartTime>2018-08-23 23:50:37</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>cbc85786b19f447fa389b2c2c408664f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>ORDER.Click</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[ORDER]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[ORDER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[orderBtn]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>15276d1711fd432685864b9ff573746c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>progBar.WaitProperty</Name>
+    <Description>"value", 100, 100, 20000</Description>
+    <StartTime>2018-08-23 23:50:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfProgressBar</Type>
+            <Name><![CDATA[progBar]]></Name>
+          </Object>
+        </Path>
+        <Operation>WaitProperty</Operation>
+        <OperationData><![CDATA["value", 100, 100, 20000]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[progBar]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7ef00758b2bf4975b536769c88cbe8f5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Order XX completed.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2018-08-23 23:50:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfObject</Type>
+            <Name><![CDATA[Order XX completed]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[orderCompleted]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5342d09b6e1d4db38442c70a85696cbd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HPE MyFlight Sample Application</Name>
+    <Description>WpfWindow</Description>
+    <StartTime>2018-08-23 23:50:37</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>806216b39d7449a0b4e11b5cfa49e157</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Did NOT Prevent Additional Booking Order</Name>
+    <Description>User was able to book the same Order again immediatly after doing it once</Description>
+    <StartTime>2018-08-23 23:50:39</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>cbc85786b19f447fa389b2c2c408664f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>NEW SEARCH.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2018-08-23 23:50:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[NEW SEARCH]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[NEW SEARCH]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[newSearchBtn]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>15276d1711fd432685864b9ff573746c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>NEW SEARCH.Click</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+          <Object>
+            <Type>WpfButton</Type>
+            <Name><![CDATA[NEW SEARCH]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[NEW SEARCH]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[newSearchBtn]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>15276d1711fd432685864b9ff573746c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>HPE MyFlight Sample Application</Name>
+    <Description>WpfWindow</Description>
+    <StartTime>2018-08-23 23:50:39</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\MyFlight Application\MyFlight Repositories\Order a Flight (corrected).tsr</Repository>
+        <Path>
+          <Object>
+            <Type>WpfWindow</Type>
+            <Name><![CDATA[HPE MyFlight Sample Application]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WpfWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[wpftypename]]></Name>
+            <Value><![CDATA[window]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[devname]]></Name>
+            <Value><![CDATA[.*MyFlight Sample Application]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>806216b39d7449a0b4e11b5cfa49e157</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Order same Flight twice in a Row</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:36</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>9d48e1ae5a49457d81f6356da14c3377</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<Data>
+    <Name>Close Application [Common MyFlight Behaviour Test]</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:39</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>9d48e1ae5a49457d81f6356da14c3377</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-08-23 23:50:29</StartTime>
+    <Duration>12</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>c50e5c36f45e4669a8c75fa19911a3b7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>3-0-20 Lockout Control (this Test should FAIL)</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.03</ToolVersion>
+    <Description />
+    <StartTime>2018-08-23 23:50:27</StartTime>
+    <Duration>14</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2f9df028be924bbbb80c2c0b9c81c7cc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+02:00:00</Timezone>
+      <Locale>Deutsch (Österreich)</Locale>
+      <User>Emir</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>4024</TotalMemory>
+      <HostName>DESKTOP-I4VQ9RT</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2018-08-23 23:50:27</RunStartTime>
+    <Timezone>+02:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.03</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

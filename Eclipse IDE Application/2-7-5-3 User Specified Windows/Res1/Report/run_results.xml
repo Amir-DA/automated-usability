@@ -1,0 +1,5337 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "C:\Users\Emir\eclipse\java-photon\eclipse\eclipse.exe",1</Name>
+    <StartTime>2018-08-24 00:11:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>9556263ffd50423882f9c7b24629740f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Eclipse Launcher.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2018-08-24 00:11:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Eclipse Repositories\Launcher.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Launcher]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Eclipse Launcher]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Launch.Click</Name>
+    <Description>"LEFT"</Description>
+    <StartTime>2018-08-24 00:11:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Eclipse Repositories\Launcher.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Launcher]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Launch]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA["LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Launch]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e652ed422e5a452d974ca32f005c5b1c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse Launcher</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:11:54</StartTime>
+    <Duration>8</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Eclipse Repositories\Launcher.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Launcher]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Eclipse Launcher]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Start Application [Common Eclipse Behaviour Test]</Name>
+    <Description />
+    <StartTime>2018-08-24 00:11:44</StartTime>
+    <Duration>18</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>25a1a01a15874f0e96f2146621bfe6cc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>CTabFolder_2.Exist</Name>
+    <Description>"Object does not exist"</Description>
+    <StartTime>2018-08-24 00:12:21</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[CTabFolder_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object does not exist"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.CTabFolder]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:12:21</StartTime>
+    <Duration>11</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Banaouas 0927741 - Practical Part of thesis - Automated Usability Inspection - Eclipse Workspace - Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Show View.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2018-08-24 00:12:32</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Show View]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>[ JavaMenu ].Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:32</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[[ JavaMenu ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>[ JavaMenu ].Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[[ JavaMenu ]]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name />
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:32</StartTime>
+    <Duration>6</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[[ JavaMenu ]]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Tasks.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Tasks]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Tasks]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Tasks</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:38</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Tasks]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Tasks]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Task List.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Task List]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Task List]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Task List</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:39</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Task List]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Task List]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Project Explorer.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:40</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Project Explorer]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Project Explorer]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Project Explorer</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:40</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Project Explorer]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Project Explorer]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Package Explorer.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:43</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Package Explorer]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Package Explorer]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Package Explorer</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:43</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Package Explorer]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Package Explorer]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Problems.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Problems]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Problems]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Problems</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:44</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Problems]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Problems]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Console.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Console]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Console]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Console</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:45</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Console]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Console]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Ant.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:46</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Ant]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Ant]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Ant</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:46</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Ant]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Ant]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Outline.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Outline]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Outline]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Outline</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:47</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Outline]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Outline]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Declaration.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:48</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Declaration]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Declaration]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Declaration</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:48</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Declaration]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Declaration]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Navigator.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Navigator]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Navigator]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Navigator</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:50</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Navigator]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Navigator]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Type Hierarchy.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Type Hierarchy]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Type Hierarchy]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Type Hierarchy</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:51</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Type Hierarchy]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Type Hierarchy]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Templates.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:52</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Templates]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Templates]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Templates</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:52</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Templates]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Templates]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Show View</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:32</StartTime>
+    <Duration>21</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Show View]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Window</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:12:32</StartTime>
+    <Duration>21</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Window]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>tab3.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2018-08-24 00:12:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[tab3]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[To display the type hierarchy, select a type (for example in the outline view or in the editor), and select the 'Open Type Hierarchy' menu option. Alternatively, you can drag and drop an element (e.g. project, package, type) onto this view.]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse - new action</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:12:32</StartTime>
+    <Duration>21</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Banaouas 0927741 - Practical Part of thesis - Automated Usability Inspection - Eclipse Workspace - Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Newly Added View was Found</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>029d1c94b7c3413b86b47840ead927e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>No templates available..Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2018-08-24 00:12:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[No templates available.]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[width]]></Name>
+            <Value><![CDATA[254]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[value]]></Name>
+            <Value><![CDATA[Templates]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_description]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[No templates available.]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[tagname]]></Name>
+            <Value><![CDATA[No templates available.]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[height]]></Name>
+            <Value><![CDATA[232]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse - new action</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:12:53</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Banaouas 0927741 - Practical Part of thesis - Automated Usability Inspection - Eclipse Workspace - Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Newly Added View was Found</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>029d1c94b7c3413b86b47840ead927e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>tab.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2018-08-24 00:12:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[tab]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.CTabFolder]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[No templates available.]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[orig_logical_location]]></Name>
+            <Value><![CDATA[X_BIG__Y_BIG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[displayed]]></Name>
+            <Value><![CDATA[1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse - new action</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:12:54</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Banaouas 0927741 - Practical Part of thesis - Automated Usability Inspection - Eclipse Workspace - Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Newly Added View was Found</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>029d1c94b7c3413b86b47840ead927e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Displayed Additional Views in the same Perspective Successfully</Name>
+    <Description>The Perspective holds almost all available Views at the same time</Description>
+    <StartTime>2018-08-24 00:12:54</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>029d1c94b7c3413b86b47840ead927e1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>tab.CloseTab</Name>
+    <Description>"Declaration"</Description>
+    <StartTime>2018-08-24 00:12:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[tab]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseTab</Operation>
+        <OperationData><![CDATA["Declaration"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.CTabFolder]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[No templates available.]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[orig_logical_location]]></Name>
+            <Value><![CDATA[X_BIG__Y_BIG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[displayed]]></Name>
+            <Value><![CDATA[1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>tab.CloseTab</Name>
+    <Description>"Console"</Description>
+    <StartTime>2018-08-24 00:12:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[tab]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseTab</Operation>
+        <OperationData><![CDATA["Console"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.CTabFolder]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[No templates available.]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[orig_logical_location]]></Name>
+            <Value><![CDATA[X_BIG__Y_BIG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[displayed]]></Name>
+            <Value><![CDATA[1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>tab.CloseTab</Name>
+    <Description>"Problems"</Description>
+    <StartTime>2018-08-24 00:12:56</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[tab]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseTab</Operation>
+        <OperationData><![CDATA["Problems"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.CTabFolder]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[No templates available.]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[orig_logical_location]]></Name>
+            <Value><![CDATA[X_BIG__Y_BIG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[displayed]]></Name>
+            <Value><![CDATA[1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>tab.CloseTab</Name>
+    <Description>"Tasks"</Description>
+    <StartTime>2018-08-24 00:12:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[tab]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseTab</Operation>
+        <OperationData><![CDATA["Tasks"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.CTabFolder]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[No templates available.]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[orig_logical_location]]></Name>
+            <Value><![CDATA[X_BIG__Y_BIG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[displayed]]></Name>
+            <Value><![CDATA[1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>tab.CloseTab</Name>
+    <Description>"Search"</Description>
+    <StartTime>2018-08-24 00:12:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[tab]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseTab</Operation>
+        <OperationData><![CDATA["Search"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.CTabFolder]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[No templates available.]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[orig_logical_location]]></Name>
+            <Value><![CDATA[X_BIG__Y_BIG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[displayed]]></Name>
+            <Value><![CDATA[1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>No templates available..CloseTab</Name>
+    <Description>"Templates"</Description>
+    <StartTime>2018-08-24 00:12:59</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[No templates available.]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseTab</Operation>
+        <OperationData><![CDATA["Templates"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[width]]></Name>
+            <Value><![CDATA[254]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[value]]></Name>
+            <Value><![CDATA[Templates]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_description]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[No templates available.]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[tagname]]></Name>
+            <Value><![CDATA[No templates available.]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[height]]></Name>
+            <Value><![CDATA[232]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>tab4.CloseTab</Name>
+    <Description>"Outline"</Description>
+    <StartTime>2018-08-24 00:13:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[tab4]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseTab</Operation>
+        <OperationData><![CDATA["Outline"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[An outline is not available.]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>CTabFolder_4.CloseTab</Name>
+    <Description>"Ant"</Description>
+    <StartTime>2018-08-24 00:13:00</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[CTabFolder_4]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseTab</Operation>
+        <OperationData><![CDATA["Ant"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.CTabFolder]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[orig_logical_location]]></Name>
+            <Value><![CDATA[X_BIG__Y_UNK]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>CTabFolder_5.CloseTab</Name>
+    <Description>"Task List"</Description>
+    <StartTime>2018-08-24 00:13:01</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[CTabFolder_5]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseTab</Operation>
+        <OperationData><![CDATA["Task List"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.CTabFolder]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[orig_logical_location]]></Name>
+            <Value><![CDATA[X_BIG__Y_SMALL]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>tab3.CloseTab</Name>
+    <Description>"Type Hierarchy"</Description>
+    <StartTime>2018-08-24 00:13:01</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[tab3]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseTab</Operation>
+        <OperationData><![CDATA["Type Hierarchy"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[To display the type hierarchy, select a type (for example in the outline view or in the editor), and select the 'Open Type Hierarchy' menu option. Alternatively, you can drag and drop an element (e.g. project, package, type) onto this view.]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>CTabFolder_7.CloseTab</Name>
+    <Description>"Navigator"</Description>
+    <StartTime>2018-08-24 00:13:02</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[CTabFolder_7]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseTab</Operation>
+        <OperationData><![CDATA["Navigator"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.CTabFolder]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[orig_logical_location]]></Name>
+            <Value><![CDATA[X_SMALL__Y_FULL]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>CTabFolder_7.CloseTab</Name>
+    <Description>"Package Explorer"</Description>
+    <StartTime>2018-08-24 00:13:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[CTabFolder_7]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseTab</Operation>
+        <OperationData><![CDATA["Package Explorer"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.CTabFolder]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[orig_logical_location]]></Name>
+            <Value><![CDATA[X_SMALL__Y_FULL]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>CTabFolder_7.CloseTab</Name>
+    <Description>"Project Explorer"</Description>
+    <StartTime>2018-08-24 00:13:05</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[CTabFolder_7]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseTab</Operation>
+        <OperationData><![CDATA["Project Explorer"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.CTabFolder]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[orig_logical_location]]></Name>
+            <Value><![CDATA[X_SMALL__Y_FULL]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>CTabFolder_9.CloseTab</Name>
+    <Description>"Javadoc"</Description>
+    <StartTime>2018-08-24 00:13:05</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[CTabFolder_9]]></Name>
+          </Object>
+        </Path>
+        <Operation>CloseTab</Operation>
+        <OperationData><![CDATA["Javadoc"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[width]]></Name>
+            <Value><![CDATA[1364]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[value]]></Name>
+            <Value><![CDATA[Javadoc]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_description]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[tagname]]></Name>
+            <Value><![CDATA[CTabFolder]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[height]]></Name>
+            <Value><![CDATA[156]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>18e4e41f244441a08fef0fda5de5f634</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse - new action</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:12:54</StartTime>
+    <Duration>13</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Banaouas 0927741 - Practical Part of thesis - Automated Usability Inspection - Eclipse Workspace - Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Package Explorer.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:13:08</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Package Explorer]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Package Explorer]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Package Explorer</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:08</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Package Explorer]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Package Explorer]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Console.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:13:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Console]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Console]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Console</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:09</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Console]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Console]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Ant.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:13:10</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Ant]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Ant]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Ant</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:10</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Ant]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Ant]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Show View</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:08</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Show View]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Show View]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Save Perspective As....Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:13:11</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Save Perspective As...]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Save Perspective As...]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Save Perspective As...</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:11</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Save Perspective As...]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Save Perspective As...]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Perspective</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:11</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Perspective]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Perspective]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Window</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:08</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Window]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Name:.Set</Name>
+    <Description>"Minimalistic Java Perspective"</Description>
+    <StartTime>2018-08-24 00:13:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Save Perspective As...]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[Name:]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Minimalistic Java Perspective"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[enabled]]></Name>
+            <Value><![CDATA[1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[displayed]]></Name>
+            <Value><![CDATA[1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Name:]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5ba9f03f750349bcb49d6c1e42b55ad6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Saving a New Perspective Possible"</Name>
+    <Description> </Description>
+    <StartTime>2018-08-24 00:13:12</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Save Perspective As...]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Save]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Save]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[enabled]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[1]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[1]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[label]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Save]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Save]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[value]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+      </Checkpoint>
+      <IconKey>e652ed422e5a452d974ca32f005c5b1c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Save</Name>
+    <Description>JavaButton</Description>
+    <StartTime>2018-08-24 00:13:12</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Save Perspective As...]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Save]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaButton]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Save]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e652ed422e5a452d974ca32f005c5b1c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Save.Click</Name>
+    <Description>"LEFT"</Description>
+    <StartTime>2018-08-24 00:13:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Save Perspective As...]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Save]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA["LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Save]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e652ed422e5a452d974ca32f005c5b1c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Save Perspective As...</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:13:12</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Save Perspective As...]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Save Perspective As...]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Open Perspective.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2018-08-24 00:13:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Open Perspective]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Open Perspective]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Open Perspective</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:13</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Open Perspective]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Open Perspective]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Perspective.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:13:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Perspective]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Perspective]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Perspective</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:13</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Perspective]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Perspective]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Window</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:13</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Window]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse - new action</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:13:08</StartTime>
+    <Duration>5</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Banaouas 0927741 - Practical Part of thesis - Automated Usability Inspection - Eclipse Workspace - Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>SysTreeView32.Type</Name>
+    <Description>"&amp;lt__MicDwn&amp;gt&amp;lt__MicRight&amp;gt&amp;lt__MicDwn&amp;gt&amp;lt__MicDwn&amp;gt&amp;lt__MicReturn&amp;gt"</Description>
+    <StartTime>2018-08-24 00:13:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+          <Object>
+            <Type>WinObject</Type>
+            <Name><![CDATA[SysTreeView32]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA["&lt__MicDwn&gt&lt__MicRight&gt&lt__MicDwn&gt&lt__MicDwn&gt&lt__MicReturn&gt"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[window id]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[object class]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>23d3f17630e44ef2ad0ae77a1952cde9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse IDE</Name>
+    <Description>Window</Description>
+    <StartTime>2018-08-24 00:13:13</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Eclipse IDE]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SWT_Window0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Newly Added Perspective Is Saved"</Name>
+    <Description>Verification type: String Content.
+Settings: Exact match - ON; Ignore space - ON; Match case - OFF.
+Results: Checked  5 cells;
+ Succeeded:	  5;
+Failed:	  0</Description>
+    <StartTime>2018-08-24 00:13:14</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Open Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTable</Type>
+            <Name><![CDATA[Table]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Verification type: String Content.
+Settings: Exact match - ON; Ignore space - ON; Match case - OFF.
+Results: Checked  5 cells;
+ Succeeded:	  5;
+Failed:	  0]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTable]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <CheckpointSubType>DB CheckPoint</CheckpointSubType>
+      </Checkpoint>
+      <HtmlBottomFilePath>Resources\CheckPoints\c76e0f09-8c67-4eb3-84f6-e93f39a33d07\tableresult.js</HtmlBottomFilePath>
+      <IconKey>7b706a6f4fd74997a40fe6c49f8d187d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Table</Name>
+    <Description>JavaTable</Description>
+    <StartTime>2018-08-24 00:13:14</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Open Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTable</Type>
+            <Name><![CDATA[Table]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaTable]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTable]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7b706a6f4fd74997a40fe6c49f8d187d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Cancel.Click</Name>
+    <Description>"LEFT"</Description>
+    <StartTime>2018-08-24 00:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Open Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Cancel]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA["LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Cancel]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e652ed422e5a452d974ca32f005c5b1c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Open Perspective</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:13:14</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Open Perspective]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Open Perspective]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse - new action</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:13:14</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Banaouas 0927741 - Practical Part of thesis - Automated Usability Inspection - Eclipse Workspace - Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Save Perspective</Name>
+    <Description />
+    <StartTime>2018-08-24 00:13:07</StartTime>
+    <Duration>8</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>25a1a01a15874f0e96f2146621bfe6cc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Preferences.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:13:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Preferences]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Preferences]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Preferences</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:15</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Preferences]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Preferences]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Window</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:15</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Window]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Tree.Expand</Name>
+    <Description>"General"</Description>
+    <StartTime>2018-08-24 00:13:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Preferences]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTree</Type>
+            <Name><![CDATA[Tree]]></Name>
+          </Object>
+        </Path>
+        <Operation>Expand</Operation>
+        <OperationData><![CDATA["General"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTree]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>569ba0b2a257454589fa1fb47ca2dda7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Tree.Select</Name>
+    <Description>"General;Perspectives"</Description>
+    <StartTime>2018-08-24 00:13:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Preferences]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTree</Type>
+            <Name><![CDATA[Tree]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["General;Perspectives"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTree]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>569ba0b2a257454589fa1fb47ca2dda7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Available perspectives:.SelectCell</Name>
+    <Description>"5", "0"</Description>
+    <StartTime>2018-08-24 00:13:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Preferences]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTable</Type>
+            <Name><![CDATA[Available perspectives:]]></Name>
+          </Object>
+        </Path>
+        <Operation>SelectCell</Operation>
+        <OperationData><![CDATA["5", "0"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTable]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7b706a6f4fd74997a40fe6c49f8d187d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Available perspectives:.ActivateCell</Name>
+    <Description>"5", "0"</Description>
+    <StartTime>2018-08-24 00:13:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Preferences]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTable</Type>
+            <Name><![CDATA[Available perspectives:]]></Name>
+          </Object>
+        </Path>
+        <Operation>ActivateCell</Operation>
+        <OperationData><![CDATA["5", "0"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTable]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7b706a6f4fd74997a40fe6c49f8d187d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Delete.Click</Name>
+    <Description>"LEFT"</Description>
+    <StartTime>2018-08-24 00:13:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Preferences]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Delete]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA["LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Delete]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e652ed422e5a452d974ca32f005c5b1c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Correct Perspective will be deleted"</Name>
+    <Description>Text Checkpoint: captured "Minimalistic Java Perspective" Match case: OFF Exact match: OFF Ignore spaces: ON</Description>
+    <StartTime>2018-08-24 00:13:20</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Preferences]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Delete Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaStaticText</Type>
+            <Name><![CDATA[Are you sure you want]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Text Checkpoint: captured "Minimalistic Java Perspective" Match case: OFF Exact match: OFF Ignore spaces: ON]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaStaticText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Are you sure you want to delete the 'Minimalistic Java Perspective' perspective? It has open instances.]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Text Checkpoint</Type>
+        <Captured>"Are you sure you want to delete the "Minimalistic Java Perspective' perspective? It has
+open instances."</Captured>
+        <Expected>"Minimalistic Java Perspective"</Expected>
+        <Regex>False</Regex>
+        <MatchCase>False</MatchCase>
+        <ExactMatch>False</ExactMatch>
+        <IgnoreSpaces>True</IgnoreSpaces>
+      </Checkpoint>
+      <IconKey>00bb7f3b7d8544fdbf56c4140a22b010</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Are you sure you want</Name>
+    <Description>JavaStaticText</Description>
+    <StartTime>2018-08-24 00:13:20</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Preferences]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Delete Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaStaticText</Type>
+            <Name><![CDATA[Are you sure you want]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaStaticText]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaStaticText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Are you sure you want to delete the 'Minimalistic Java Perspective' perspective? It has open instances.]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>00bb7f3b7d8544fdbf56c4140a22b010</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Yes.Click</Name>
+    <Description>"LEFT"</Description>
+    <StartTime>2018-08-24 00:13:20</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Preferences]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Delete Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Yes]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA["LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Yes]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e652ed422e5a452d974ca32f005c5b1c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Delete Perspective</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:13:20</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Preferences]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Delete Perspective]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Delete Perspective]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Apply and Close.Click</Name>
+    <Description>"LEFT"</Description>
+    <StartTime>2018-08-24 00:13:20</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Preferences]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Apply and Close]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA["LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Apply and Close]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e652ed422e5a452d974ca32f005c5b1c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Preferences</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:13:17</StartTime>
+    <Duration>6</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Preferences]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Preferences]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Perspective.Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:13:23</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Perspective]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Perspective]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Perspective</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:23</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Perspective]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Perspective]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Window</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:23</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Window]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse - new action</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:13:15</StartTime>
+    <Duration>8</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Banaouas 0927741 - Practical Part of thesis - Automated Usability Inspection - Eclipse Workspace - Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>SysTreeView32.Type</Name>
+    <Description>"&amp;lt__MicDwn&amp;gt&amp;lt__MicRight&amp;gt&amp;lt__MicDwn&amp;gt&amp;lt__MicReturn&amp;gt"</Description>
+    <StartTime>2018-08-24 00:13:23</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+          <Object>
+            <Type>WinObject</Type>
+            <Name><![CDATA[SysTreeView32]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA["&lt__MicDwn&gt&lt__MicRight&gt&lt__MicDwn&gt&lt__MicReturn&gt"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[window id]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[object class]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>23d3f17630e44ef2ad0ae77a1952cde9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse IDE</Name>
+    <Description>Window</Description>
+    <StartTime>2018-08-24 00:13:23</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Eclipse IDE]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SWT_Window0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Reset Perspective....Select</Name>
+    <Description />
+    <StartTime>2018-08-24 00:13:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Reset Perspective...]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Reset Perspective...]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Reset Perspective...</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:26</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Reset Perspective...]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Reset Perspective...]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Perspective</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:26</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Perspective]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Perspective]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Window</Name>
+    <Description>JavaMenu</Description>
+    <StartTime>2018-08-24 00:13:26</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaMenu</Type>
+            <Name><![CDATA[Window]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaMenu]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaMenu]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Window]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>9c2dd98aca694d12a2ac788ca08100d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Reset Perspective Button Exists"</Name>
+    <Description> </Description>
+    <StartTime>2018-08-24 00:13:26</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Reset Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Reset Perspective]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Reset Perspective]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[enabled]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[1]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[1]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[label]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Reset Perspective]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Reset Perspective]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[value]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+      </Checkpoint>
+      <IconKey>e652ed422e5a452d974ca32f005c5b1c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Reset Perspective</Name>
+    <Description>JavaButton</Description>
+    <StartTime>2018-08-24 00:13:26</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Reset Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Reset Perspective]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaButton]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Reset Perspective]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e652ed422e5a452d974ca32f005c5b1c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Reset Perspective.Click</Name>
+    <Description>"LEFT"</Description>
+    <StartTime>2018-08-24 00:13:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Reset Perspective]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Reset Perspective]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA["LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Reset Perspective]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e652ed422e5a452d974ca32f005c5b1c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Reset Perspective</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:13:26</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Reset Perspective]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Reset Perspective]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse - new action</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:13:26</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Banaouas 0927741 - Practical Part of thesis - Automated Usability Inspection - Eclipse Workspace - Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Reset Windows</Name>
+    <Description />
+    <StartTime>2018-08-24 00:13:15</StartTime>
+    <Duration>12</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>25a1a01a15874f0e96f2146621bfe6cc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Customize Windows</Name>
+    <Description />
+    <StartTime>2018-08-24 00:12:05</StartTime>
+    <Duration>82</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>25a1a01a15874f0e96f2146621bfe6cc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Eclipse.Close</Name>
+    <Description />
+    <StartTime>2018-08-24 00:13:30</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[.* Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Confirm Exit.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2018-08-24 00:13:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Confirm Exit]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Confirm Exit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Exit.Click</Name>
+    <Description>"LEFT"</Description>
+    <StartTime>2018-08-24 00:13:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Confirm Exit]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Exit]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA["LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Exit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e652ed422e5a452d974ca32f005c5b1c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Confirm Exit</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:13:50</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Confirm Exit]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Confirm Exit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:13:30</StartTime>
+    <Duration>21</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[.* Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d895db0a96e14cc4b3449d3a2a7bebb9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Close Application [Common Eclipse Behaviour Test]</Name>
+    <Description />
+    <StartTime>2018-08-24 00:13:27</StartTime>
+    <Duration>24</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>25a1a01a15874f0e96f2146621bfe6cc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-08-24 00:11:44</StartTime>
+    <Duration>128</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>2c6ca81916404ca88f3260a210444403</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>2-7-5-3 User Specified Windows</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.03</ToolVersion>
+    <Description />
+    <StartTime>2018-08-24 00:11:42</StartTime>
+    <Duration>130</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>78cf9681dfff4f17967ee48e7e70e73a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+02:00:00</Timezone>
+      <Locale>Deutsch (Österreich)</Locale>
+      <User>Emir</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>4024</TotalMemory>
+      <HostName>DESKTOP-I4VQ9RT</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2018-08-24 00:11:42</RunStartTime>
+    <Timezone>+02:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.03</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

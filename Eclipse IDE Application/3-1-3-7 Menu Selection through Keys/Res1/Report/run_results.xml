@@ -1,0 +1,2283 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "C:\Users\Emir\eclipse\java-photon\eclipse\eclipse.exe",1</Name>
+    <StartTime>2018-08-24 00:16:44</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>e338f2b1d01141ffa13acca63ffbf215</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Eclipse Launcher.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2018-08-24 00:16:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Eclipse Repositories\Launcher.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Launcher]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Eclipse Launcher]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Launch.Click</Name>
+    <Description>"LEFT"</Description>
+    <StartTime>2018-08-24 00:16:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Eclipse Repositories\Launcher.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Launcher]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Launch]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA["LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Launch]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>567a88dddf7b4bcaba5f1a7da5899696</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse Launcher</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:16:50</StartTime>
+    <Duration>10</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Eclipse Repositories\Launcher.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Launcher]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Eclipse Launcher]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Start Application [Common Eclipse Behaviour Test]</Name>
+    <Description />
+    <StartTime>2018-08-24 00:16:41</StartTime>
+    <Duration>19</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2b566e884b1f450990fe88e86b5e742a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>CTabFolder_2.Exist</Name>
+    <Description>"Object does not exist"</Description>
+    <StartTime>2018-08-24 00:17:19</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTab</Type>
+            <Name><![CDATA[CTabFolder_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object does not exist"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.CTabFolder]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTab]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>1a5f96f73fb5423cb36ce271239d056b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:17:19</StartTime>
+    <Duration>10</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Banaouas 0927741 - Practical Part of thesis - Automated Usability Inspection - Eclipse Workspace - Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>SysTreeView32.Type</Name>
+    <Description>"&amp;lt__MicShiftDwn&amp;gt&amp;lt__MicAltDwn&amp;gtN&amp;lt__MicAltUp&amp;gt&amp;lt__MicShiftUp&amp;gt"</Description>
+    <StartTime>2018-08-24 00:17:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+          <Object>
+            <Type>WinObject</Type>
+            <Name><![CDATA[SysTreeView32]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA["&lt__MicShiftDwn&gt&lt__MicAltDwn&gtN&lt__MicAltUp&gt&lt__MicShiftUp&gt"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[window id]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[object class]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>13ee7e848fe64227b71e5956d3740c3b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SysTreeView32.Type</Name>
+    <Description>"&amp;lt__MicDwn&amp;gt&amp;lt__MicReturn&amp;gt"</Description>
+    <StartTime>2018-08-24 00:17:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+          <Object>
+            <Type>WinObject</Type>
+            <Name><![CDATA[SysTreeView32]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA["&lt__MicDwn&gt&lt__MicReturn&gt"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[window id]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[object class]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>13ee7e848fe64227b71e5956d3740c3b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse IDE</Name>
+    <Description>Window</Description>
+    <StartTime>2018-08-24 00:17:29</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Eclipse IDE]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SWT_Window0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"New Window for Creating a Java Project Appeared"</Name>
+    <Description> </Description>
+    <StartTime>2018-08-24 00:17:31</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Eclipse Repositories\New Java Project.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[New Java Project]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaStaticText</Type>
+            <Name><![CDATA[Create a Java Project(st)]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaStaticText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Create a Java Project]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[attached text]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Create a Java Project]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Create a Java Project]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[label]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Create a Java Project]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Create a Java Project]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+      </Checkpoint>
+      <IconKey>6af0d6d075f942d28e10631e48b46944</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Create a Java Project(st)</Name>
+    <Description>JavaStaticText</Description>
+    <StartTime>2018-08-24 00:17:31</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Eclipse Repositories\New Java Project.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[New Java Project]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaStaticText</Type>
+            <Name><![CDATA[Create a Java Project(st)]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaStaticText]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaStaticText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Create a Java Project]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6af0d6d075f942d28e10631e48b46944</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Project name:.Set</Name>
+    <Description>"Sample Project"</Description>
+    <StartTime>2018-08-24 00:17:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Eclipse Repositories\New Java Project.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[New Java Project]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[Project name:]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["Sample Project"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Project name:]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e813fe5a14ae42559c990166c874bf39</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Finish Button is now enabled"</Name>
+    <Description> </Description>
+    <StartTime>2018-08-24 00:17:31</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Eclipse Repositories\New Java Project.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[New Java Project]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Finish]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Finish]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[enabled]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[1]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[1]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+      </Checkpoint>
+      <IconKey>567a88dddf7b4bcaba5f1a7da5899696</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Finish</Name>
+    <Description>JavaButton</Description>
+    <StartTime>2018-08-24 00:17:31</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Eclipse Repositories\New Java Project.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[New Java Project]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Finish]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaButton]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Finish]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>567a88dddf7b4bcaba5f1a7da5899696</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Finish.Click</Name>
+    <Description>"LEFT"</Description>
+    <StartTime>2018-08-24 00:17:32</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Eclipse Repositories\New Java Project.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[New Java Project]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Finish]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA["LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Finish]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>567a88dddf7b4bcaba5f1a7da5899696</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>New Java Project</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:17:31</StartTime>
+    <Duration>12</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Eclipse Repositories\New Java Project.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[New Java Project]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[New Java Project]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse - new action</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:17:31</StartTime>
+    <Duration>12</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\Users\Emir\Documents\Unified Functional Testing\Banaouas-Amir-Practical-Side-of-Thesis\Eclipse IDE Application\Eclipse Repositories\New Java Project.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse - new action]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Banaouas 0927741.*]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Tree.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2018-08-24 00:17:43</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTree</Type>
+            <Name><![CDATA[Tree]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.widgets.Tree]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTree]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e4fc3d97877b42fba70f32ffe80ecea6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Tree.Select</Name>
+    <Description>"Sample Project"</Description>
+    <StartTime>2018-08-24 00:17:45</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTree</Type>
+            <Name><![CDATA[Tree]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Sample Project"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.widgets.Tree]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTree]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e4fc3d97877b42fba70f32ffe80ecea6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:17:43</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Banaouas 0927741 - Practical Part of thesis - Automated Usability Inspection - Eclipse Workspace - Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Created a Project with only Key Entries successfully</Name>
+    <Description>Created a Project with only Key Entries successfully</Description>
+    <StartTime>2018-08-24 00:17:45</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>7131a78f08b14eca91967cb181147cbf</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Create Project (with keys)</Name>
+    <Description />
+    <StartTime>2018-08-24 00:17:01</StartTime>
+    <Duration>44</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2b566e884b1f450990fe88e86b5e742a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>SysTreeView32.Type</Name>
+    <Description>"&amp;lt__MicShiftDwn&amp;gt&amp;lt__MicAltDwn&amp;gtN&amp;lt__MicAltUp&amp;gt&amp;lt__MicShiftUp&amp;gt"</Description>
+    <StartTime>2018-08-24 00:17:50</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+          <Object>
+            <Type>WinObject</Type>
+            <Name><![CDATA[SysTreeView32]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA["&lt__MicShiftDwn&gt&lt__MicAltDwn&gtN&lt__MicAltUp&gt&lt__MicShiftUp&gt"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[window id]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[object class]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>13ee7e848fe64227b71e5956d3740c3b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SysTreeView32.Type</Name>
+    <Description>"&amp;lt__MicDwn&amp;gt&amp;lt__MicDwn&amp;gt&amp;lt__MicDwn&amp;gt&amp;lt__MicDwn&amp;gt&amp;lt__MicReturn&amp;gt"</Description>
+    <StartTime>2018-08-24 00:17:51</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+          <Object>
+            <Type>WinObject</Type>
+            <Name><![CDATA[SysTreeView32]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA["&lt__MicDwn&gt&lt__MicDwn&gt&lt__MicDwn&gt&lt__MicDwn&gt&lt__MicReturn&gt"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[window id]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[object class]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>13ee7e848fe64227b71e5956d3740c3b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse IDE</Name>
+    <Description>Window</Description>
+    <StartTime>2018-08-24 00:17:50</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Eclipse IDE]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SWT_Window0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>New Java Class.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2018-08-24 00:17:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[New Java Class]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[New Java Class]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>New Java Class</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:17:53</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[New Java Class]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[New Java Class]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:17:53</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Banaouas 0927741 - Practical Part of thesis - Automated Usability Inspection - Eclipse Workspace - Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Successfully Opened New Java Class Window with only Key Entries</Name>
+    <Description>By pressing keys, the correct Window opened up</Description>
+    <StartTime>2018-08-24 00:17:54</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>7131a78f08b14eca91967cb181147cbf</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Name:.Set</Name>
+    <Description>"HelloWorld"</Description>
+    <StartTime>2018-08-24 00:17:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[New Java Class]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[Name:]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["HelloWorld"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Name:]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e813fe5a14ae42559c990166c874bf39</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Finish.Click</Name>
+    <Description>"LEFT"</Description>
+    <StartTime>2018-08-24 00:17:55</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[New Java Class]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Finish]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA["LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Finish]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>567a88dddf7b4bcaba5f1a7da5899696</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>New Java Class</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:17:55</StartTime>
+    <Duration>10</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[New Java Class]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[New Java Class]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:17:55</StartTime>
+    <Duration>10</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Banaouas 0927741 - Practical Part of thesis - Automated Usability Inspection - Eclipse Workspace - Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>StyledText.SetFocus</Name>
+    <Description />
+    <StartTime>2018-08-24 00:18:05</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Local]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[StyledText]]></Name>
+          </Object>
+        </Path>
+        <Operation>SetFocus</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.StyledText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e813fe5a14ae42559c990166c874bf39</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>StyledText.Set</Name>
+    <Description>"
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        // Prints out "Hello, World" on the Output Consol.
+        System.out.println("Hello, World: Menu Selection through keys is being tested");
+    }
+
+}"</Description>
+    <StartTime>2018-08-24 00:18:05</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Local]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaEdit</Type>
+            <Name><![CDATA[StyledText]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        // Prints out "Hello, World" on the Output Consol.
+        System.out.println("Hello, World: Menu Selection through keys is being tested");
+    }
+
+}"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.custom.StyledText]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e813fe5a14ae42559c990166c874bf39</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse Local</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:18:05</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Local]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[.* Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Write a program (with keys)</Name>
+    <Description />
+    <StartTime>2018-08-24 00:17:47</StartTime>
+    <Duration>19</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2b566e884b1f450990fe88e86b5e742a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>SWT_Window0.Type</Name>
+    <Description>"&amp;lt__MicCtrlDwn&amp;gts&amp;lt__MicCtrlUp&amp;gt"</Description>
+    <StartTime>2018-08-24 00:18:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+          <Object>
+            <Type>WinObject</Type>
+            <Name><![CDATA[SWT_Window0]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA["&lt__MicCtrlDwn&gts&lt__MicCtrlUp&gt"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[window id]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SWT_Window0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[object class]]></Name>
+            <Value><![CDATA[SWT_Window0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[SWT_Window0]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>13ee7e848fe64227b71e5956d3740c3b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse IDE</Name>
+    <Description>Window</Description>
+    <StartTime>2018-08-24 00:18:06</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Eclipse IDE]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SWT_Window0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Save a Program (with keys)</Name>
+    <Description />
+    <StartTime>2018-08-24 00:18:06</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2b566e884b1f450990fe88e86b5e742a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Tree.Select</Name>
+    <Description>"Sample Project"</Description>
+    <StartTime>2018-08-24 00:18:12</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Local Rep]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaTree</Type>
+            <Name><![CDATA[Tree]]></Name>
+          </Object>
+        </Path>
+        <Operation>Select</Operation>
+        <OperationData><![CDATA["Sample Project"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[toolkit class]]></Name>
+            <Value><![CDATA[org.eclipse.swt.widgets.Tree]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaTree]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>e4fc3d97877b42fba70f32ffe80ecea6</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse Local Rep</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:18:12</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Local Rep]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[.* Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>SysTreeView32_2.Type</Name>
+    <Description>"&amp;lt__MicDel&amp;gt"</Description>
+    <StartTime>2018-08-24 00:18:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+          <Object>
+            <Type>WinObject</Type>
+            <Name><![CDATA[SysTreeView32_2]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA["&lt__MicDel&gt"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[window id]]></Name>
+            <Value><![CDATA[0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[object class]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[nativeclass]]></Name>
+            <Value><![CDATA[SysTreeView32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>13ee7e848fe64227b71e5956d3740c3b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Are you sure you want.Type</Name>
+    <Description>" "</Description>
+    <StartTime>2018-08-24 00:18:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Delete Resources]]></Name>
+          </Object>
+          <Object>
+            <Type>WinObject</Type>
+            <Name><![CDATA[Are you sure you want]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA[" "]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Are you sure you want to remove project 'Sample Project' from the workspace?]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>13ee7e848fe64227b71e5956d3740c3b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Delete Resources</Name>
+    <Description>Window</Description>
+    <StartTime>2018-08-24 00:18:14</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Delete Resources]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Delete Resources]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[#32770]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[True]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse IDE</Name>
+    <Description>Window</Description>
+    <StartTime>2018-08-24 00:18:13</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Eclipse IDE]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SWT_Window0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Delete project Checkbox is checked"</Name>
+    <Description> </Description>
+    <StartTime>2018-08-24 00:18:14</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Local Rep]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Delete Resources]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaCheckBox</Type>
+            <Name><![CDATA[Delete project contents]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaCheckBox]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Delete project contents on disk (cannot be undone)]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[enabled]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[1]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[1]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[value]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[1]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[1]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+      </Checkpoint>
+      <IconKey>c4579307533b4c2981a14dd5ad18dccd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Delete project contents</Name>
+    <Description>JavaCheckBox</Description>
+    <StartTime>2018-08-24 00:18:14</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Local Rep]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Delete Resources]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaCheckBox</Type>
+            <Name><![CDATA[Delete project contents]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaCheckBox]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaCheckBox]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Delete project contents on disk (cannot be undone)]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>c4579307533b4c2981a14dd5ad18dccd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Delete Resources</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:18:14</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Local Rep]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Delete Resources]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Delete Resources]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse Local Rep</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:18:14</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse Local Rep]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[.* Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Are you sure you want.Type</Name>
+    <Description>"&amp;lt__MicReturn&amp;gt"</Description>
+    <StartTime>2018-08-24 00:18:15</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Delete Resources]]></Name>
+          </Object>
+          <Object>
+            <Type>WinObject</Type>
+            <Name><![CDATA[Are you sure you want]]></Name>
+          </Object>
+        </Path>
+        <Operation>Type</Operation>
+        <OperationData><![CDATA["&lt__MicReturn&gt"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[Button]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[attached text]]></Name>
+            <Value><![CDATA[Are you sure you want to remove project 'Sample Project' from the workspace?]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>13ee7e848fe64227b71e5956d3740c3b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Delete Resources</Name>
+    <Description>Window</Description>
+    <StartTime>2018-08-24 00:18:15</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Delete Resources]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Delete Resources]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[#32770]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[True]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse IDE</Name>
+    <Description>Window</Description>
+    <StartTime>2018-08-24 00:18:14</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Window</Type>
+            <Name><![CDATA[Eclipse IDE]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Window]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[regexpwndtitle]]></Name>
+            <Value><![CDATA[Eclipse IDE]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[regexpwndclass]]></Name>
+            <Value><![CDATA[SWT_Window0]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is owned window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[is child window]]></Name>
+            <Value><![CDATA[False]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Delete Project (with keys)</Name>
+    <Description />
+    <StartTime>2018-08-24 00:18:12</StartTime>
+    <Duration>3</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2b566e884b1f450990fe88e86b5e742a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Eclipse.Close</Name>
+    <Description />
+    <StartTime>2018-08-24 00:18:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+        </Path>
+        <Operation>Close</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[.* Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Confirm Exit.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2018-08-24 00:18:37</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Confirm Exit]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Confirm Exit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Exit.Click</Name>
+    <Description>"LEFT"</Description>
+    <StartTime>2018-08-24 00:18:38</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Confirm Exit]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaButton</Type>
+            <Name><![CDATA[Exit]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <OperationData><![CDATA["LEFT"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaButton]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[label]]></Name>
+            <Value><![CDATA[Exit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>567a88dddf7b4bcaba5f1a7da5899696</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Confirm Exit</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:18:37</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Confirm Exit]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[Confirm Exit]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Eclipse</Name>
+    <Description>JavaWindow</Description>
+    <StartTime>2018-08-24 00:18:17</StartTime>
+    <Duration>21</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>JavaWindow</Type>
+            <Name><![CDATA[Eclipse]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[JavaWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[to_class]]></Name>
+            <Value><![CDATA[JavaWindow]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[.* Eclipse IDE]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7dbd3127d5194fe2bbef908082caa747</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Close Application [Common Eclipse Behaviour Test]</Name>
+    <Description />
+    <StartTime>2018-08-24 00:18:15</StartTime>
+    <Duration>23</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2b566e884b1f450990fe88e86b5e742a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2018-08-24 00:16:40</StartTime>
+    <Duration>119</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>6412d769cb774bafaf8af9f18597d8d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>3-1-3-7 Menu Selection through Keys</Name>
+    <ToolName>HPE Unified Functional Testing</ToolName>
+    <ToolVersion>14.03</ToolVersion>
+    <Description />
+    <StartTime>2018-08-24 00:16:39</StartTime>
+    <Duration>120</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>467471a35f7b4938af4c0900ef36e257</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+02:00:00</Timezone>
+      <Locale>Deutsch (Österreich)</Locale>
+      <User>Emir</User>
+      <CpuInfo>Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>4024</TotalMemory>
+      <HostName>DESKTOP-I4VQ9RT</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2018-08-24 00:16:39</RunStartTime>
+    <Timezone>+02:00:00</Timezone>
+    <OrchestrationToolName>HPE Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.03</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

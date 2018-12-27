@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\Emir\\Desktop\\Banaouas-Amir-Practical-Experiment-UFT\\MyFlight Application\\1-4-15 Tabbing to Data Fields\\Res1',namePairs:[]}]};

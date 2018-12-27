@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\Emir\\Desktop\\Banaouas-Amir-Practical-Experiment-UFT\\Eclipse IDE Application\\3-2-10 Only Available Options Offered (this Test should Fail)\\Res1',namePairs:[]}]};
